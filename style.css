@@ -36,7 +36,7 @@ li {
 }
 
 .navbar {
-  padding: 1.5em 5em;
+  padding: 1.5em 6em;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -351,10 +351,28 @@ img {
 /* Media Quries */
 @media screen and (max-width: 1200px) {
   .navbar {
-    padding: 1.5em 3em;
+    padding: 1.5em 3.5em;
   }
   .hero-left {
     width: 55%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .hero-left {
+    width: 40%;
+  }
+
+  .hero-left h1 {
+    font-size: 3rem;
+  }
+
+  .hero-left p {
+    font-size: 1rem;
+  }
+
+  .hero-right {
+    width: 40%;
   }
 }
 
