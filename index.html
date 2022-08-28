@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="overlay"></div>
+
+      <nav class="navbar">
+        <section class="menu-section">
+          <img class="logo" src="images/logo.svg" alt="logo" />
+          <ul class="menu">
+            <li class="menu-item" id="menu-item">
+              <a href="#">Features</a>
+              <img
+                class="arrow-icon"
+                src="images/icon-arrow-down.svg"
+                alt="icon-arrow-down"
+              />
+
+              <div class="dropdown">
+                <ul class="nested-menu">
+                  <li class="nested-menu-item">
+                    <img src="images/icon-todo.svg" alt="icon-todo" />
+                    <span class="item">Todo List</span>
+                  </li>
+                  <li class="nested-menu-item">
+                    <img src="images/icon-calendar.svg" alt="icon-calendar" />
+                    <span class="item">Calendar</span>
+                  </li>
+                  <li class="nested-menu-item">
+                    <img src="images/icon-reminders.svg" alt="icon-reminders" />
+                    <span class="item">Reminders</span>
+                  </li>
+                  <li class="nested-menu-item">
+                    <img src="images/icon-planning.svg" alt="icon-planning" />
+                    <span class="item">Planning</span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item" id="menu-item">
+              <a href="#">Company</a>
+              <img
+                class="arrow-icon"
+                src="images/icon-arrow-down.svg"
+                alt="icon-arrow-down"
+              />
+
+              <div class="dropdown company-dropdown">
+                <ul class="nested-menu">
+                  <li class="nested-menu-item">
+                    <span class="item">History</span>
+                  </li>
+                  <li class="nested-menu-item">
+                    <span class="item">Our team</span>
+                  </li>
+                  <li class="nested-menu-item">
+                    <span class="item">Blog</span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item"><a href="#">Career</a></li>
+            <li class="menu-item"><a href="#">About</a></li>
+          </ul>
+        </section>
+
+        <section class="btn-container">
+          <button class="btn">Login</button>
+          <button class="btn outlined">Register</button>
+        </section>
+
+        <img
+          id="open-menu"
+          class="open-menu"
+          src="images/icon-menu.svg"
+          alt="menu-icon"
+        />
+      </nav>
+
+      <nav class="mobile-navbar">
+        <img
+          id="close-menu"
+          class="close-menu"
+          src="images/icon-close-menu.svg"
+          alt="menu-icon-close"
+        />
+
+        <section class="mobile-menu-section">
+          <ul class="menu">
+            <li class="menu-item" id="mobile-menu-item">
+              <a href="#">Features</a>
+              <img
+                class="arrow-icon"
+                src="images/icon-arrow-down.svg"
+                alt="icon-arrow-down"
+              />
+
+              <div class="mobile-dropdown">
+                <ul class="nested-menu">
+                  <li class="nested-menu-item">
+                    <img src="images/icon-todo.svg" alt="icon-todo" />
+                    <span class="item">Todo List</span>
+                  </li>
+                  <li class="nested-menu-item">
+                    <img src="images/icon-calendar.svg" alt="icon-calendar" />
+                    <span class="item">Calendar</span>
+                  </li>
+                  <li class="nested-menu-item">
+                    <img src="images/icon-reminders.svg" alt="icon-reminders" />
+                    <span class="item">Reminders</span>
+                  </li>
+                  <li class="nested-menu-item">
+                    <img src="images/icon-planning.svg" alt="icon-planning" />
+                    <span class="item">Planning</span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item" id="menu-item">
+              <a href="#">Company</a>
+              <img
+                class="arrow-icon"
+                src="images/icon-arrow-down.svg"
+                alt="icon-arrow-down"
+              />
+
+              <div class="mobile-dropdown company-dropdown">
+                <ul class="nested-menu">
+                  <li class="nested-menu-item">
+                    <span class="item">History</span>
+                  </li>
+                  <li class="nested-menu-item">
+                    <span class="item">Our team</span>
+                  </li>
+                  <li class="nested-menu-item">
+                    <span class="item">Blog</span>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item"><a href="#">Career</a></li>
+            <li class="menu-item"><a href="#">About</a></li>
+          </ul>
+        </section>
+
+        <section class="mobile-btn-container">
+          <button class="btn">Login</button>
+          <button class="btn outlined">Register</button>
+        </section>
+      </nav>
+
+      <section class="hero-section container">
+        <div class="hero-left">
+          <h1 class="main-heading">
+            Make
+            <span>remote work</span>
+          </h1>
+
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+
+          <button class="btn learn-btn">Learn More</button>
+
+          <div class="brands">
+            <img src="images/client-databiz.svg" alt="databiz" />
+            <img src="images/client-audiophile.svg" alt="audiophile" />
+            <img src="images/client-meet.svg" alt="meet" />
+            <img src="images/client-maker.svg" alt="maker" />
+          </div>
+        </div>
+        <div class="hero-right">
+          <img
+            class="desktop-hero-img"
+            src="images/image-hero-desktop.png"
+            alt="hero-image"
+          />
+          <img
+            class="mobile-hero-img"
+            src="images/image-hero-mobile.png"
+            alt="hero-image"
+          />
+        </div>
+      </section>
+    </main>
+
+    <!-- Features Company Careers About Login Register Make remote work  Learn more -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
