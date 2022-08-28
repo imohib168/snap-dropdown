@@ -1,5 +1,4 @@
-const menuItem = document.querySelectorAll('#menu-item');
-const mobileMenuItem = document.querySelectorAll('#mobile-menu-item');
+const menuItem = document.querySelectorAll('.dropdown-menu');
 const mobileSidebar = document.querySelector('.mobile-navbar');
 
 const openMenu = document.getElementById('open-menu');
@@ -22,18 +21,6 @@ closeMenu.addEventListener('click', () => {
 });
 
 menuItem.forEach((elem) => {
-  elem.addEventListener('click', () => {
-    const imgChild = elem.children[1];
-    const dropdownChild = elem.children[2];
-
-    console.log(imgChild, dropdownChild);
-
-    imgChild.classList.toggle('rotate');
-    dropdownChild.classList.toggle('show');
-  });
-});
-
-mobileMenuItem.forEach((elem) => {
   elem.addEventListener('click', () => {
     const imgChild = elem.children[1];
     const dropdownChild = elem.children[2];
