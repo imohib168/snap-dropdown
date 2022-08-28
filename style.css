@@ -239,8 +239,7 @@ img {
 /* Hero Section */
 .hero-section {
   display: flex;
-  justify-content: space-between;
-  /* align-items: center; */
+  justify-content: space-around;
   padding: 0em 2em;
 
   height: calc(100vh - 88px);
@@ -254,7 +253,7 @@ img {
 }
 
 .hero-left h1 {
-  font-size: 4rem;
+  font-size: 4.5rem;
 }
 
 .hero-left h1 > span {
@@ -264,7 +263,7 @@ img {
 .hero-left p {
   margin: 2em 0em;
   color: var(--gray);
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 25px;
 }
 
@@ -291,8 +290,11 @@ img {
 }
 
 .hero-right {
-  width: 35%;
+  width: 32%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-right .desktop-hero-img {
@@ -353,12 +355,6 @@ img {
   }
   .hero-left {
     width: 55%;
-  }
-
-  .hero-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
 
