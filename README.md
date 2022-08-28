@@ -12,8 +12,6 @@ This is a solution to the [Intro section with dropdown navigation challenge on F
   - [Built with](#built-with)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -26,7 +24,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![image](https://user-images.githubusercontent.com/50514728/187089139-c38d9914-db1d-4fb2-99c6-c33aa016876d.png)
+
+![image](https://user-images.githubusercontent.com/50514728/187089157-090b5781-a89d-4519-a91c-34afa51cec60.png)
+
+![image](https://user-images.githubusercontent.com/50514728/187089189-47a49451-b33c-42a2-b8bc-0fb1a0eb2ea0.png)
+
+
 
 ### Links
 
